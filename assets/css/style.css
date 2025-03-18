@@ -489,6 +489,7 @@ Navbar Area CSS
 }
 .main-navbar .navbar .navbar-brand {
   padding: 0;
+  width: 100px;
 }
 .main-navbar .navbar ul {
   padding-left: 0;
