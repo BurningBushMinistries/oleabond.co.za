@@ -1321,7 +1321,7 @@ Main Slides Area CSS
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 350px;
-  padding-bottom: 350px;
+  padding-bottom: 65vh;
 }
 .main-slides-item.item-two {
   background-image: url(../images/main-slides/slides-bg-2.jpg);
@@ -1354,6 +1354,15 @@ Main Slides Area CSS
   font-weight: bold;
   animation-delay: 0.5s;
 }
+
+@media (min-width: 1024px) {
+  .main-slides-content h1,
+  .main-slides-content p,
+  .main-slides-content .slides-btn {
+      display: none;
+  }
+}
+
 .main-slides-content h1 span {
   font-weight: 400;
   font-style: italic;
